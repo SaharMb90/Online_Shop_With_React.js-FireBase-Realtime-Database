@@ -18,12 +18,12 @@ import './Home.css';
 
 const PRODUCTS = [
   { id: 1, title: 'ZZ Plant', price: 24, image: zzPlant, note: 'Thrives on neglect, low light forgiving.' },
-  { id: 2, title: 'Monstera Deliciosa', price: 38, image: monstera, note: 'Fenestrated leaves, fast-growing climber.' },
-  { id: 3, title: 'Calathea Medallion', price: 29, image: calatheaWhite, note: 'Folds its leaves at dusk like a closing book.' },
+  { id: 2, title: 'Monstera Deliciosa', price: 38, image: monstera, note: 'Fenestrated leaves, fast-growing.' },
+  { id: 3, title: 'Calathea Medallion', price: 29, image: calatheaWhite, note: 'Folds its leaves at dusk like a closing.' },
   { id: 4, title: 'Peace Lily', price: 22, image: peaceLily, note: 'Tells you when it\u2019s thirsty by drooping.' },
-  { id: 5, title: 'Calathea Rufibarba', price: 27, image: calatheaGray, note: 'Velvet-backed leaves, gentle ripple pattern.' },
+  { id: 5, title: 'Calathea Rufibarba', price: 27, image: calatheaGray, note: 'Velvet-backed leaves, gentle ripple.' },
   { id: 6, title: 'Monstera, potted', price: 41, image: monstera2, note: 'A mature specimen ready for a corner.' },
-  { id: 7, title: 'Venus Flytrap', price: 19, image: venusTrap, note: 'Carnivorous, snaps shut in under a second.' },
+  { id: 7, title: 'Venus Flytrap', price: 19, image: venusTrap, note: 'Carnivorous, snaps shut in.' },
   { id: 8, title: 'Ruffled Fan Palm', price: 33, image: palm, note: 'Wide rattan basket, statement foliage.' },
 ];
 
