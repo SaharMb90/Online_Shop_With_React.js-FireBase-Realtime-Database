@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .gh-profile {
   max-width: 480px;
 }
@@ -35,3 +36,45 @@
   color: var(--parchment-dim);
   font-size: 12.5px;
 }
+=======
+/* src/pages/ProfileInfo.css */
+.profile-info {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .user-details {
+    margin-bottom: 20px;
+  }
+  
+  .user-details p {
+    font-size: 16px;
+    margin: 10px 0;
+  }
+  
+  
+  
+  .purchase-history {
+    margin-top: 20px;
+  }
+  
+  .purchase-history h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .purchase-history ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .purchase-history li {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+>>>>>>> 880e70e4f7f59473f1e22df6cf7395221cb5662d

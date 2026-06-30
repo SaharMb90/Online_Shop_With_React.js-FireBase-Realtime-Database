@@ -4,6 +4,7 @@
   border-radius: 4px;
   overflow: hidden;
   transition: transform 0.45s cubic-bezier(0.16, 1, 0.3, 1), border-color 0.3s ease, box-shadow 0.4s ease;
+  display: flex; flex-direction: column; height: 100%;
 }
 
 .pane-card:hover {
@@ -45,6 +46,7 @@
 
 .pane-card__body {
   padding: 20px;
+  display: flex; flex-direction: column; flex: 1;
 }
 
 .pane-card__body h3 {
@@ -61,6 +63,7 @@
   font-size: 14px;
   margin: 0 0 16px;
   line-height: 1.5;
+  flex: 1;
 }
 
 .pane-card__btn {
