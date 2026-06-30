@@ -1,0 +1,110 @@
+.hero {
+  position: relative;
+  min-height: 92vh;
+  display: flex;
+  align-items: center;
+  padding-top: 90px;
+  overflow: hidden;
+  background: radial-gradient(ellipse at 70% 20%, rgba(181, 80, 42, 0.16), transparent 60%), var(--moss);
+}
+
+.hero__panes {
+  position: absolute;
+  inset: 0;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  pointer-events: none;
+}
+
+.hero__panes span {
+  border: 1px solid rgba(168, 130, 59, 0.12);
+}
+
+.hero__content {
+  position: relative;
+  z-index: 2;
+  max-width: 700px;
+}
+
+.hero__title {
+  font-family: var(--font-display);
+  font-size: clamp(42px, 6.4vw, 76px);
+  line-height: 1.04;
+  font-weight: 700;
+  margin: 0 0 24px;
+  letter-spacing: -0.01em;
+}
+
+.hero__title span {
+  font-family: var(--font-accent);
+  font-style: italic;
+  font-weight: 400;
+  color: var(--clay-bright);
+}
+
+.hero__lede {
+  font-size: 17px;
+  color: var(--parchment-dim);
+  max-width: 480px;
+  line-height: 1.65;
+  margin: 0 0 36px;
+}
+
+.hero__cta {
+  display: inline-block;
+  padding: 14px 28px;
+  border: 1px solid var(--brass);
+  border-radius: 3px;
+  font-size: 14.5px;
+  letter-spacing: 0.02em;
+  transition: background 0.3s ease, color 0.3s ease, transform 0.3s ease;
+}
+
+.hero__cta:hover {
+  background: var(--clay-bright);
+  color: var(--ink);
+  border-color: var(--clay-bright);
+  transform: translateY(-2px);
+}
+
+.collection {
+  padding: 110px 32px 60px;
+}
+
+.collection__heading {
+  font-family: var(--font-display);
+  font-size: clamp(28px, 3.4vw, 38px);
+  margin: 0 0 10px;
+  font-weight: 700;
+}
+
+.collection__sub {
+  color: var(--parchment-dim);
+  font-family: var(--font-accent);
+  font-style: italic;
+  margin: 0 0 50px;
+  max-width: 480px;
+}
+
+.collection__grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 24px;
+}
+
+@media (max-width: 1020px) {
+  .collection__grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 560px) {
+  .collection__grid {
+    grid-template-columns: 1fr;
+  }
+  .hero {
+    min-height: auto;
+    padding: 130px 0 60px;
+  }
+}

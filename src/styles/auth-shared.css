@@ -1,0 +1,131 @@
+.gh-page {
+  min-height: 80vh;
+  padding: 150px 32px 100px;
+  display: flex;
+  justify-content: center;
+}
+
+.gh-page__panel {
+  width: 100%;
+  max-width: 440px;
+  background: var(--glass);
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  padding: 44px 40px;
+}
+
+.gh-page__eyebrow {
+  font-family: var(--font-accent);
+  font-style: italic;
+  color: var(--clay-bright);
+  font-size: 14px;
+  margin: 0 0 8px;
+}
+
+.gh-page__title {
+  font-family: var(--font-display);
+  font-size: 32px;
+  font-weight: 700;
+  margin: 0 0 30px;
+}
+
+.gh-field {
+  margin-bottom: 20px;
+}
+
+.gh-field label {
+  display: block;
+  font-size: 13px;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--parchment-dim);
+  margin-bottom: 8px;
+}
+
+.gh-field input,
+.gh-field textarea {
+  width: 100%;
+  background: rgba(0, 0, 0, 0.18);
+  border: 1px solid var(--line);
+  border-radius: 4px;
+  padding: 12px 14px;
+  color: var(--parchment);
+  font-size: 15px;
+  font-family: var(--font-body);
+  transition: border-color 0.25s ease;
+}
+
+.gh-field input:focus,
+.gh-field textarea:focus {
+  border-color: var(--clay-bright);
+  outline: none;
+}
+
+.gh-field textarea {
+  min-height: 120px;
+  resize: vertical;
+}
+
+.gh-error {
+  background: rgba(181, 80, 42, 0.15);
+  border: 1px solid var(--clay);
+  color: var(--clay-bright);
+  padding: 10px 14px;
+  border-radius: 4px;
+  font-size: 13.5px;
+  margin-bottom: 20px;
+}
+
+.gh-success {
+  background: rgba(143, 166, 142, 0.15);
+  border: 1px solid #8fa68e;
+  color: #cfe0ce;
+  padding: 10px 14px;
+  border-radius: 4px;
+  font-size: 13.5px;
+  margin-bottom: 20px;
+}
+
+.gh-btn {
+  width: 100%;
+  padding: 13px;
+  background: var(--clay);
+  border: 1px solid var(--clay);
+  color: var(--parchment);
+  border-radius: 4px;
+  font-size: 14.5px;
+  letter-spacing: 0.02em;
+  cursor: pointer;
+  transition: background 0.25s ease, transform 0.2s ease;
+}
+
+.gh-btn:hover {
+  background: var(--clay-bright);
+  transform: translateY(-2px);
+}
+
+.gh-page__switch {
+  margin-top: 24px;
+  text-align: center;
+  font-size: 14px;
+  color: var(--parchment-dim);
+}
+
+.gh-page__switch button {
+  background: none;
+  border: none;
+  color: var(--clay-bright);
+  cursor: pointer;
+  font-size: 14px;
+  padding: 0;
+  margin-left: 4px;
+}
+
+.gh-page__hint {
+  margin-top: 18px;
+  font-family: var(--font-accent);
+  font-style: italic;
+  font-size: 13px;
+  color: var(--parchment-dim);
+  text-align: center;
+}
